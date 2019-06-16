@@ -5,15 +5,14 @@ plugins:
  # - autoprefixer-rails
    - jekyll-seo-tag
    - jekyll-sitemap
-
-#exclude:
-#  - "/vendor/"
+   - jekyll/tagging
+   - jekyll-tagging-related_posts
 
 # Site settings
-title: A Painter
+title: Alun Ward
 subtitle: Great artist
-name: A Painter
-description: Demo Eye Gallery site
+name: Alun Ward
+description: UK based artist
 # Base URL of site (i.e. /blog). It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
@@ -22,9 +21,17 @@ baseurl: ""
 url: "https://black-hare.cloudvent.net"
 # https://gnarly-stone.cloudvent.net/ for Jekyll3 branch -
 # apt-loris.cloudvent.net for Jekyll3 sync
+asset_url: "/assets/"
 
 logo: "/assets/logo.png"
+show_logo: false
 email: a.ward@eyedivision.com
+
+default_post_image: "/assets/images/road_closed.jpg"
+default_gallery_image: "/assets/images/road_closed.jpg"
+
+show_social_top: true
+
 
 # Build settings
 markdown: kramdown
@@ -32,6 +39,10 @@ markdown: kramdown
 #inter_post_navigation: false
 permalink: pretty
 highlightjs_theme: "monokai-sublime"
+
+# Colours for favicons etc
+themecolor: #ffffff
+tilecolor: #ffffff
 
 # Image CDN
 imagecdn:
@@ -43,7 +54,7 @@ collections:
     gallery:
         output: true
         permalink: /gallery/:path/
-        _hide_content: true
+       # _hide_content: true
 
 # Defaults Example
 defaults:
@@ -53,43 +64,43 @@ defaults:
             type: "gallery"
         values:
             layout: "gallery"
-
 _options:
-  _text:
-    italic: true
-    bold: true
+  _text:            # text =
     link: true
-    undo: true
-    redo: true
-    underline: true
-    strike: true
-  _block:
+    bold: true
+    italic: true
+    removeformat: true
+  _block:           # block = editable blocks within pages
+    link: true
+    bold: true
+    italic: true
+    removeformat: true
     left: align-left
     center: center-this-text
     right: align-right
     justify: full-width-text
     undo: true
     redo: true
-    format: p h1 h2 h3 h4 div
+    format: p h2 h3 h4 h5 h6 div
     numberedlist: true
     bulletedlist: true
-    indent: true
-    outdent:  true
     blockquote: true
     image: true
     styles: /css/editor.scss
   content:
+    link: true
+    bold: true
+    italic: true
+    removeformat: true
     left: align-left
     center: center-this-text
     right: align-right
     justify: full-width-text
     undo: true
     redo: true
-    format: p h1 h2 h3 h4 div
+    format: p h2 h3 h4 h5 h6 div
     numberedlist: true
     bulletedlist: true
-    indent: true
-    outdent:  true
     blockquote: true
     image: true
     styles: /css/editor.scss
@@ -115,10 +126,16 @@ _options:
 disqus_shortname: alun-ward
 
 # Google analytics
-#ga_tracking_id: ""
+ga_tracking_id: "UA-6726212-1"
 
 # Google Recaptcha used for contact form
 recaptcha_site_key: "6LcNYBQUAAAAAALGOjCFo1CKxb65aFTFelMJo1YF"
+
+# Google verification
+google_verification: 7c832b1cb11e1e002d4a654347f17155
+
+# Typekit ID
+typekit_id: fcb6zup
 
 # Social icons and sharing options
 #
@@ -139,37 +156,44 @@ social:
 
   - name: Facebook
     icon: icon-facebook_sign
-    username: 'eyedivision'
-    url: https://www.facebook.com/eyedivision
+    username:
+    url:
     desc: Like us on Facebook
     share: true
 
   - name: Instagram
     icon: icon-instagram
-    username: '@eyedivision'
-    url: https://instagram.com/eyedivision
+    username:
+    url:
     desc: Follow us on Instagram
     share: false
 
   - name: Twitter
     icon: icon-twitter_sign
-    username: '@EyeDivision'
-    url: https://twitter.com/EyeDivision
-    desc: Follow us on Twitter
+    username: '@lunaEye'
+    url: https://twitter.com/lunaEye
+    desc: Follow me on Twitter
     share: true
 
   - name: Pinterest
     icon: icon-pinterest
-    username: 'eyediv'
-    url: https://www.pinterest.co.uk/eyediv/
+    username:
+    url:
     desc: Follow us on Pinterest
     share: true
 
   - name: linkedin
     icon: icon-linkedin_sign
-    username: 'eye-division-ltd'
-    url: https://www.linkedin.com/company/eye-division-ltd/
+    username:
+    url:
     desc: Connect with us on LinkedIn
+    share: true
+
+  - name: flickr
+    icon: icon-flickr_sign
+    username: 'lunaman'
+    url: https://www.flickr.com/photos/lunaman/
+    desc: Flickr
     share: true
 
 # Social sharing protocols

@@ -3,9 +3,33 @@ layout: page
 title: "Typography"
 permalink: /typography/
 main_image_path: "/assets/images/clevedon-pools.jpg"
+main_image_caption: "Clevedon Pools - image by Eye Division"
+_options:
+  layout:
+    hidden: true
+  permalik:
+    hidden: true
+  image_path:
+    uploads_dir: "assets/images/:year"
+    width: 1200
+    height: 1200
+    resize_style: contain
+    mime_type: image/jpeg
+  main_image_path:
+    uploads_dir: "assets/images/:year"
+    width: 1200
+    height: 1200
+    resize_style: contain
+    mime_type: image/jpeg
+  content:
+    uploads_dir: "assets/:year"
+_comments:
+  title: Page title
+  main_image_path: Image used to represent your page
 ---
 
-<p>The purpose of this HTML is to help determine what default settings are with Bitters and to make sure that all possible HTML Elements are included in this HTML so as to not miss any possible Elements when designing a site.</p>
+<section class="editable">
+<p>The purpose of this page is to help determine what default style settings are.</p>
 
 <hr>
 
@@ -65,9 +89,15 @@ main_image_path: "/assets/images/clevedon-pools.jpg"
   <li>List Item 2</li>
   <li>List Item 3</li>
 </ul>
+<h3>Horizontal list <code>.list--horizontal</code> class</h3>
+<ul class="list--horizontal">
+  <li>List Item 1</li>
+  <li>List Item 2</li>
+  <li>List Item 3</li>
+</ul>
 
 <hr>
-
+</section>
 <h1 id="form_elements">Fieldsets and Form Elements</h1>
 
 <fieldset>

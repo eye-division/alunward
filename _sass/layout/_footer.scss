@@ -1,16 +1,8 @@
-// -----------------------------------------------------------------------------
-// This file contains all styles related to the footer of the site/application.
-// -----------------------------------------------------------------------------
 
 .site--footer {
-    @include grid-container;
-    @include grid-visual;
     padding: 1em;
     background-color: $white;
-    .wrapper {
-        @include grid-container;
-        padding: 0 1em;
-    }
+    text-align: center;
     a {
         //color: $link-color;
         &:active,
@@ -24,9 +16,13 @@
         }
     }
 }
-
+.footer--wrapper {
+    padding: 0 1em;
+    margin-top: 1em;
+}
 ///  Site Navigation (left)
 
+/* not used in this site
 .site--navigation {
     @include grid-column(12);
     @include grid-media ($small) {
@@ -36,35 +32,45 @@
     ul {
         @extend %default-ul !optional;
     }
-}
+}*/
 
 ///   Site Description/Signature (right)
-
 .site--signature {
     margin-top: 1em;
     text-align: center;
+    /*
     @include grid-column(12);
     @include grid-media ($small) {
         @include grid-column(6);
         margin-right: 0;
         margin-top: 0;
     }
+    */
     font-size: 0.9em;
     a {
         text-decoration: underline;
     }
 }
 
-///   Contact Info (center)
+.social-media-list {
+    padding: 1em 0;
+    a {
+        text-decoration: none;
+    }
+}
+
+///   Contact Info (left)
 
 .site--contact {
     margin-top: 1em;
+    /*
     @include grid-column(12);
     @include grid-media ($small) {
         @include grid-column(6);
         margin-top: 0;
         margin-right: 0;
     }
+    */
 
     font-size: 0.9em;
     i {
@@ -78,4 +84,23 @@
 .site--copyright {
     margin-top: 1em;
     text-align: center;
+}
+
+/// And now, with the grid
+@supports (display: grid) {
+
+    .site--footer {
+        // positioning of main body grid - push down to bottom of page
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+
+    .footer--wrapper {
+        display: grid;  // this is the container
+        grid-gap: 10px;
+        justify-items: center;
+        // how many columns in this grid?
+        // NONE!
+        //grid-template-columns: repeat(3, 33% [col-start]);
+    }
 }

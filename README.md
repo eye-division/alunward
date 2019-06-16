@@ -1,14 +1,16 @@
 # Eye Gallery
 
-Eye Gallery from [Eye Division][ed] is a (work in progress) base theme and configuration for [Jekyll](http://jekyllrb.com/), based on Bourbon and Neat. It is a fork of the [Centratrium][centrarium] custom theme by [Ben Centra][bencentra]. Props to [Neil C Smith](neilcsmith) for the original forkage.
+Eye Gallery from [Eye Division][ed] is a (work in progress) base theme and configuration for [Jekyll](http://jekyllrb.com/) version 3.6, based on Bourbon and Neat. It is a fork of the [Centratrium][centrarium] custom theme by [Ben Centra][bencentra]. Props to [Neil C Smith](neilcsmith) for the original forkage.
 
 Built with these awesome libraries: 
 * [Bourbon][bourbon] v 5 - May 2018
-* [Neat][neat] - v 2.1.0 - May 2018
+* [jQuery][jquery] v 2.2.4 - May 2019
+* [Neat][neat] - v 3.0.0 - May 2018 - TO BE DEGRADED
 * [Font Awesome][fontawesome]
-* [HighlightJS][highlightjs]
-* [Lightbox2][lightbox]
-* [Flexslider][flexslider]
+* [HighlightJS][highlightjs] v 9.12.0
+* [Lightbox2][lightbox] v 2.10.0
+* [Flexslider][flexslider] v 2.7.1
+* [FitVids][fitvids] v.1.1.0
 
 ## Features
 
@@ -30,7 +32,6 @@ This theme comes with a number of features, including:
 * Better Bourbon Buttons Neato add-on
 * Designed for use on CloudCannon hosting for customer editing
 * uses imgIX as image CDN on staging and production
-
 
 ## Installation
 
@@ -141,10 +142,6 @@ social:
     share: true                           # Include in the "Share" section of posts
 ```
 
-### Social Protocols
-
-Using the Open Graph Protocol or Twitter Card metadata, you can automatically set the images and text used when people share your site on Twitter or Facebook. These take a bit of setup, but are well worth it. The relevant fields are at the end of the `_config.yml` file.
-
 ### Category Descriptions
 
 You can enhance the `posts.html` archive page with descriptions of your post categories. See the __descriptions__ section of `_config.yml`:
@@ -160,7 +157,7 @@ descriptions:
 
 A bunch of basic font icons from [IcoMoon][im] have been included in the _includes/svg folder.
 
-This file is then included in the head.html document for every page.
+This file is then included in the page layout for every page.
 
 Usage: 
 ```
@@ -176,6 +173,7 @@ MIT. See [LICENSE.MD](https://github.com/eye-division/eyegallery/blob/master/LIC
 [bourbon]: http://bourbon.io/
 [bundler]: http://bundler.io/
 [ed]: https://eyedivision.com/
+[fitvids]: https://github.com/davatron5000/FitVids.js
 [flexslider]: https://github.com/woocommerce/FlexSlider
 [neat]: http://neat.bourbon.io/
 [bitters]: http://bitters.bourbon.io/
@@ -183,6 +181,7 @@ MIT. See [LICENSE.MD](https://github.com/eye-division/eyegallery/blob/master/LIC
 [highlightjs]: https://highlightjs.org/
 [im]: https://icomoon.io/
 [ix]: https://www.imgix.com/
+[jquery]: https://jquery.com/
 [lightbox]: http://lokeshdhakar.com/projects/lightbox2/
 [cover]: https://www.flickr.com/photos/79666107@N00/3796678503/in/photolist-6MuYfc-61Rtft-8XzPmY-a6Cozm-54eSMs-6oMJmk-aepZQq-9YkPHp-fiAEGE-dVP4Z5-oxPyJP-atKUFJ-9YHWA5-9YF2f2-9YF2gR-9YHVGN-9YHVvs-qZYYQ6-4JqP2i-a2peGy-9YHVUm-9YHVF7-9YHVCL-9YF3NK-cYteMo-aiPmb9-69dtAi-9YF21x-4aWpmn-7SLiUL-77pqVX-8vXbYv-4HGDSH-a2h5P1-8LsZrQ-9aj1ez-auPZ7q-9YHVMd-9YF2bi-9YF23D-8LpWpn-9an6KL-9YHVZL-dqZ3Cz-2GuvnX-9YHWUo-9YHVWd-p5Roh5-i1zTbv-6sYrUT
 [neilcsmith]: https://www.neilcsmith.net/

@@ -1,52 +1,81 @@
 ---
 layout: home
+main_image_path:
+main_image_caption:
+show_carousel: false
+show_blog: true
+posts_number: 2
 carousel:
   - image: /assets/images/advert-customers.jpg
     caption: "A test caption"
-    link: /gallery/test/
+    alink: /gallery/test/
   - image: /assets/images/advert-impregnable.jpg
     caption:
-    link:
+    alink:
 _options:
-  image:
+  layout:
+    hidden: true
+  image_path:
+    uploads_dir: "assets/images/:year"
     width: 1200
     height: 1200
     resize_style: contain
     mime_type: image/jpeg
+  main_image_path:
+    uploads_dir: "assets/images/:year"
+    width: 1200
+    height: 1200
+    resize_style: contain
+    mime_type: image/jpeg
+  content:
+    uploads_dir: "assets/:year"
 _comments:
+  main_image_path: Cover image
+  main_image_caption: Alt text for cover image
   carousel: Edit the slideshow
-  link: Optional web link from the slide
+  show_carouse: Show the slideshow
+  show_blog: Show your latest posts on the homepage
+  posts_number: How many posts to show
+  alink: Optional web link from the slide
   caption: optional caption
 ---
+  {% if page.main_image_path %}
+  <!-- parallax picture please -->
+    <figure>
+    {% assign alt_text = page.title %}
+    {% if page.main_image_caption %} {% assign alt_text = page.main_image_caption %} {% endif %}
+    {% include img.html src=page.main_image_path alt=alt_text %}
+    <figcaption>{{ alt_text }}</figcaption>
+    </figure>
+  {% endif %}
 
-    <div class="editable">
-    <p>This is the demo editable first paragraph. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, in magnam placeat. Ex illo ipsa libero voluptatem necessitatibus modi fugit odit omnis. Sequi voluptatem mollitia voluptatum ipsum placeat, quaerat laudantium!</p>
-    </div>
+  <div class="editable">
+    <p>Alun uses sound, projection and sculpture to explore the overlap between a general mood evoked by soundscapes, and specific personal memories. He works with a sculptural combination of technology and the natural world to explore the way that touch affects our memory.</p>
 
-    {% if page.carousel %}
-    <!-- <div class="two-thirds no-gutter"> -->
-    <section>
+  </div>
+
+    {% if page.show_carousel and page.carousel %}
+    <section class="slideshow">
       <h2>This is a demo slideshow</h2>
       <div class="flexslider">
           <ul class="slides">
             {% for slides in page.carousel %}
             <li>
-              {% if slides.link %}
-              <a href="{{ site.baseurl }}{{ slides.link }}" title="View project">
+              {% if slides.alink %}
+                 <a href="{{ site.baseurl }}{{ slides.alink }}" title="View project">
               {% endif %}
               {% include img.html src=slides.image width=960 alt=slides.caption %}
-              {% if slides.link %}
-              </a>
-            {% endif %}
+              {% if slides.alink %}
+                </a>
+              {% endif %}
               {% if slides.caption %}
-              <p class="flex-caption">{% if slides.link %}<a href="{{ site.baseurl }}{{ slides.link }}" title="View project">{% endif %}{{ slides.caption }}{% if slides.link %}&nbsp;<svg class="icon icon__white icon--readmore"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-double_angle_right" /></svg></a>{% endif %}</p>
+                <p class="flex-caption">{% if slides.alink %}<a href="{{ site.baseurl }}{{ slides.alink }}" title="View project">{% endif %}{{ slides.caption }}{% if slides.alink %}&nbsp;<svg class="icon icon__white icon--readmore"><use xmlns:xlink="https://www.w3.org/1999/xlink" xlink:href="#icon-double_angle_right" /></svg></a>{% endif %}</p>
               {% endif %}
             </li>
             {% endfor %}
           </ul>
         </div>
       </section>
-      <!-- </div> -->
       {% endif %}
 
       <!-- Regular page promotions on front page -->
@@ -55,22 +84,25 @@ _comments:
       {% if section.frontpage %}
 
         {% if section.main_image_path %}
-          <section class="gallery-cover has-cover" style="background-image: url({{ section.main_image_path }});">
+          <section class="gallery--cover has--cover" style="background-image: url({{ section.main_image_path }});">
         {% else %}
-          <section class="gallery-cover has-cover" style="background-image: url('http://placekitten.com/g/1200/300');">
+          <section class="gallery--cover has--cover" style="background-image: url('https://placekitten.com/g/1200/300');">
         {% endif %}
+
           <a href="{{ section.url | prepend: site.baseurl }}">
-            <div class="scrim has-cover">
+
+            <div class="scrim has--cover">
               <article class="gallery--front">
-                <header class="gallery-header">
-                  <h2 class="title">{{ section.frontpagetitle }}</h2>
+                <header class="gallery--header">
+                  <h2 class="cover--title mb0">{{ section.frontpagetitle }}</h2>
                 </header>
                 {% if section.homepage_description_markdown %}
-                  {{ section.homepage_description_markdown  | markdownify }}<br>
-                  <span class="readmore">Read more <span>{{nextPost.title}} <svg class="icon"><use xlink:href="#icon-double_angle_right" /></svg></span>
+                  {{ section.homepage_description_markdown | markdownify }}
+                  <span class="post--readmore">Read more <span> <svg class="icon icon--post"><use xlink:href="#icon-double_angle_right" /></svg></span>
 
                 {% endif %}
-            </article>
+            </span>
+          </article>
           </div>
           </a>
         </section>
@@ -81,20 +113,53 @@ _comments:
 
       <!-- Galleries -->
     {% for gallery in site.gallery %}
+
       {% if gallery.frontpage %}
-        <section class="gallery-cover {% if gallery.main_image_path %}has-cover{% endif %}" {% if gallery.main_image_path %}style="background-image: url({{ gallery.main_image_path | prepend: gallery.baseurl }});"{% endif %}>
+
+        <section class="gallery--cover {% if gallery.main_image_path %}has--cover{% endif %}" {% if gallery.main_image_path %}style="background-image: url({{ gallery.main_image_path | prepend: gallery.baseurl }});"{% endif %}>
+
           <a href="{{ gallery.url }}">
-            <div class="scrim {% if gallery.main_image_path %}has-cover{% endif %}">
-            <article class="gallery--front">
-              <header class="gallery-header">
-                <h2 class="title">{{ gallery.title }}</h2>
-              </header>
-              {% if gallery.homepage_description_markdown %}
-                {{ gallery.homepage_description_markdown | markdownify }}
-              {% endif %}
-          </article>
-          </div>
-        </a>
-      </section>
+
+            <div class="scrim {% if gallery.main_image_path %}has--cover{% endif %}">
+              <article class="gallery--front">
+                <header class="gallery--header">
+                  <h2 class="cover--title mb0">{{ gallery.frontpagetitle }}</h2>
+                </header>
+                {% if gallery.homepage_description_markdown %}
+                  {{ gallery.homepage_description_markdown | markdownify }} <span class="post--readmore">View gallery  <svg class="icon icon--post"><use xlink:href="#icon-double_angle_right" /></svg></span>
+                {% endif %}
+              </article>
+            </div>
+          </a>
+        </section>
+
       {% endif %}
+
     {% endfor %}
+
+
+{% if page.show_blog %}
+
+    <section class="blog blog--home">
+
+      <div class="editable">
+        <h2>Latest news</h2>
+      </div>
+
+      <ul class="posts--list">
+
+        {% for post in site.posts limit:page.posts_number %}
+
+         {% unless post.categories contains 'Archive' %}
+
+          {% include post_excerpt.html %}
+
+        {% endunless %}
+
+        {% endfor %}
+
+      </ul>
+      <p><a href="/news/">Read all news&nbsp;&raquo;</a></p>
+
+    </section>
+    {% endif %}
