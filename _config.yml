@@ -19,9 +19,8 @@ description: UK based artist
 # root of your server.
 baseurl: ""
 # the base hostname & protocol for your site
-url: "https://black-hare.cloudvent.net"
-# https://gnarly-stone.cloudvent.net/ for Jekyll3 branch -
-# apt-loris.cloudvent.net for Jekyll3 sync
+url: "https://purple-reef.cloudvent.net"
+
 asset_url: "/assets/"
 
 logo: "/assets/logo.png"
