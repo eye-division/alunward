@@ -7,6 +7,7 @@ plugins:
    - jekyll-sitemap
    - jekyll/tagging
    - jekyll-tagging-related_posts
+   - jekyll-cloudinary
 
 # Site settings
 title: Alun Ward
@@ -45,9 +46,17 @@ themecolor: #ffffff
 tilecolor: #ffffff
 
 # Image CDN
-imagecdn:
-  staging: "https://ed-eyegallery-dev.imgix.net" # apt-loris.cloudvent.net
-  production: "https://ed-eyegallery.imgix.net"
+cloudinary:
+  cloud_name: dw3mqdhkz
+  only_prod: true
+  verbose: true
+  presets:
+    default:
+      min_width: 320
+      max_width: 1600
+      fallback_max_width: 800
+      steps: 5
+      sizes: "(min-width: 50rem) 50rem, 90vw"
 
 # Collections Example
 collections:

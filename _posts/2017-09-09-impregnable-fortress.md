@@ -2,7 +2,7 @@
 layout: post
 title: "Road closed"
 post_date: 2018-09-09 15:21:00
-main_image_path: /assets/images/road_closed.jpg
+main_image_path: "/assets/images/road_closed.jpg"
 main_image_caption: "Road closed"
 comments: true
 tags: clients
