@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+show_title:
 permalink: /about/
 main_image_path: "/assets/images/portrait-thumb.jpg"
 main_image_caption: "Alun Ward"
@@ -14,6 +15,8 @@ images:
     image_description:
 _options:
   layout:
+    hidden: true
+  permalink:
     hidden: true
   image_path:
     uploads_dir: "assets/images/:year"
@@ -31,7 +34,7 @@ _options:
     uploads_dir: "assets/:year"
 _comments:
   title: Page title
-  permalink: Be careful editing this
+  show_title: Show title on page
   main_image_path: Image used to represent your page
   frontpage: Show this page on the homepage
   homepage_description_markdown: Text used on homepage if shown

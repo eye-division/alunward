@@ -1,7 +1,6 @@
 - title: "Home"
   href: "/"
-- title: "About"
-  href: "/about/"
+
 - title: "Galleries"
   href: "/gallery/"
   subcategories:
@@ -9,5 +8,6 @@
       subhref: "/shadow-me/"
     - subtitle: "Goldschmidt's Miscellany"
       subhref: "/golschmidt"
-- title: "News"
-  href: "/news/"
+
+- title: "About"
+  href: "/about/"

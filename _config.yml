@@ -30,7 +30,7 @@ email: a.ward@eyedivision.com
 default_post_image: "/assets/images/road_closed.jpg"
 default_gallery_image: "/assets/images/road_closed.jpg"
 
-show_social_top: true
+show_social_top: false
 
 
 # Build settings
