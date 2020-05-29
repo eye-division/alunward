@@ -3,7 +3,7 @@ layout: home
 main_image_path:
 main_image_caption:
 show_carousel: false
-show_blog: true
+show_blog: false
 posts_number: 2
 carousel:
   - image: /assets/images/advert-customers.jpg
@@ -111,8 +111,10 @@ _comments:
 
     {% endfor %}
 
-      <!-- Galleries -->
-    {% for gallery in site.gallery %}
+    <!-- order galleries by date -->
+    {% assign galleries = site.gallery | sort: 'gallery_date' | reverse %}
+    
+    {% for gallery in galleries %}
 
       {% if gallery.frontpage %}
 
