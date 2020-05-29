@@ -6,7 +6,7 @@ frontpage: true
 frontpagetitle: "Megasporangiate"
 homepage_description_markdown: >-
   This is an audio installation consisting of pine cones from the Cedrus atlantica, Pseudotsuga menziesii, Pinus sylvestris and Sequioa sempervirens, halved, with headphone buds inserted. 
-_gallery_date: 2016-05-01 00:00:00
+gallery_date: 2009-05-01 00:00:00
 display_image: true
 main_image_path: "/assets/images/megasporangiate-strobili-cone.jpg"
 main_image_caption: "Megasporangiate Strobili"

@@ -6,7 +6,7 @@ frontpage: true
 frontpagetitle: "Abstract paintings"
 homepage_description_markdown: >-
   A selection of abstract oil and acrylic paintings produced from the studio in Christ Church, Oxford, from 1994 to 2003.
-_gallery_date: 2016-05-01 00:00:00
+gallery_date: 1995-05-01 00:00:00
 display_image: true
 main_image_path: "/assets/images/46f25f422a59c.jpg"
 main_image_caption: "95.16"

@@ -6,7 +6,7 @@ frontpage: true
 frontpagetitle: "Suborbital Harmonic Resonator"
 homepage_description_markdown: >-
   The Suborbital Harmonic Resonator kiosk is a totally self-contained aluminium and wood structure housing three monitors and a PC. No user intervention is required once the SHAR  is installed. It can power itself down every night automatically and it's possible to install it either with speakers, or headphones as appropriate. There is also an interactive game version of Fly Me which uses a modular addition to the kiosk to enable users to interact.
-_gallery_date: 2016-05-01 00:00:00
+gallery_date: 2003-05-01 00:00:00
 display_image: true
 main_image_path: "/assets/images/46f17f392ad12.jpg"
 main_image_caption: "The Suborbital Harmonic Resonator"

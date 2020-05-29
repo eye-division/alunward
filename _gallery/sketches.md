@@ -6,7 +6,7 @@ frontpage: false
 frontpagetitle: "Sketches"
 homepage_description_markdown: >-
   
-_gallery_date: 2016-05-01 00:00:00
+gallery_date: 2005-05-01 00:00:00
 display_image: true
 main_image_path: /assets/images/46e84cdfd0e28.jpg
 main_image_caption: "Planets"

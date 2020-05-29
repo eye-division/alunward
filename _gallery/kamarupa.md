@@ -6,7 +6,7 @@ frontpage: true
 frontpagetitle: "Kamarupa"
 homepage_description_markdown: >-
   The <strong>Kamarupa</strong> series of paintings developed from abstract paintings, in which sections were removed from large expressive canvases and re-hung, framed inside white panels. 
-_gallery_date: 2016-05-01 00:00:00
+gallery_date: 2001-05-01 00:00:00
 display_image: true
 main_image_path: "/assets/images/46e84c8214ac9.jpg"
 main_image_caption: "Kamarupa"

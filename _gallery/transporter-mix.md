@@ -6,7 +6,7 @@ frontpage: true
 frontpagetitle: "Transporter Mix"
 homepage_description_markdown: >-
   Transporter Mix is a participatory installation/performance that invites you to take your shoes off and step into three micro-environments linked, via similar sounds, to very different locations and places in time. 
-_gallery_date: 2016-05-01 00:00:00
+gallery_date: 2010-05-01 00:00:00
 display_image: true
 main_image_path: "/assets/images/49764092c566f.jpg"
 main_image_caption: "Transporter Mix shed at Ovada"

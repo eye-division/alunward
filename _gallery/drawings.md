@@ -6,7 +6,7 @@ frontpage: true
 frontpagetitle: "Shadow drawings"
 homepage_description_markdown: >-
   This series of shadow drawings was prompted by the search for narrative in previous abstract works. 
-_gallery_date: 2016-05-01 00:00:00
+gallery_date: 2000-05-01 00:00:00
 display_image: true
 main_image_path: "/assets/images/46eee995f1247.jpg"
 main_image_caption: "Would you not ?"

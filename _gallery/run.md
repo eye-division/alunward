@@ -6,7 +6,7 @@ frontpage: true
 frontpagetitle: "RUN"
 homepage_description_markdown: >-
   RUN gives a sense of running as a rhythmical and visual experience which isn't necessarily about reaching an end point. 
-_gallery_date: 2016-05-01 00:00:00
+gallery_date: 2010-05-01 00:00:00
 display_image: true
 main_image_path: "/assets/images/46f2c38a65fe7.jpg"
 main_image_caption: "RUN - video still"
