@@ -47,7 +47,7 @@ tilecolor: #ffffff
 # Image CDN
 cloudinary:
   cloud_name: dw3mqdhkz
-  only_prod: true
+  only_prod: false # default to true
   verbose: true
   presets:
     default:
