@@ -1,1 +1,5 @@
-{% cloudinary {{ include.preset }} {{ include.src }} alt="{{ include.alt }}" %}
+{% if include.preset %}
+{% cloudinary  {{ include.preset }} {{ include.src }} alt="{{ include.alt }}" %}
+{% else %}
+{% cloudinary {{ include.src }} alt="{{ include.alt }}" %}
+{% endif %}
