@@ -30,8 +30,8 @@
 
     /// make it a flexbox so items can be aligned vertically
     display: flex;
-    justify-content: center;
-    flex-flow: row wrap;
+    justify-content: space-between;
+    flex-flow: wrap;
 
     // now grid it -- is this really necessary?
     /*@supports (display: grid) {
@@ -79,7 +79,12 @@
 
     @include grid-media ($small) {
         flex: 0 1 auto;
+        max-width: 28%;
     }
+    @include grid-media ($large) {
+        max-width: 22%;
+    }
+
     margin: 1em;
     text-align: center;
 
