@@ -59,3 +59,19 @@ _comments:
 <strong>Sea Hear</strong> originated with recordings of people's memories of the sea or seaside. These stories are then relayed and remixed through miniature speakers embedded in a small beach of pebbles. The recordings mingle and merge into a sea of sound where the voices are barely distinguishable, and only on holding and lifting a pebble to the ear can individual stories be heard.
 
 <strong>Sea Hear</strong> was part of **Seeing Sound from Inside Out** at Fringe Arts Bath in May 2015. Visitors to the exhibition were invited to record their memories and experiences of the sea.
+
+<script src="/js/howler.js"></script>
+<script>
+var sound = new Howl({
+  src: ['/assets/audio/alex.wav'],
+  autoplay: true,
+  loop: true,
+  volume: 1,
+  onend: function() {
+    console.log('Finished!');
+  }
+});
+
+</script>
+
+{% include player.html %}
