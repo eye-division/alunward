@@ -54,8 +54,10 @@ Player.prototype = {
     if (data.howl) {
       sound = data.howl;
     } else {
+      //'/assets/audio/' + data.file + '.webm', 
       sound = data.howl = new Howl({
-        src: ['/assets/audio/' + data.file + '.webm', '/assets/audio/' + data.file + '.mp3'],
+        // src: ['/assets/audio/' + data.file + '.mp3'],
+        src: ['https://eyedivision.fra1.digitaloceanspaces.com/seahear/' + data.file + '.mp3']
         html5: true, // Force to HTML5 so that the audio can stream in (best for large files).
         onplay: function() {
           // Display the duration.
@@ -64,32 +66,22 @@ Player.prototype = {
           // Start upating the progress of the track.
           requestAnimationFrame(self.step.bind(self));
 
-          // Start the wave animation if we have already loaded
-          wave.container.style.display = 'block';
-          bar.style.display = 'none';
+
           pauseBtn.style.display = 'block';
         },
         onload: function() {
-          // Start the wave animation.
-          wave.container.style.display = 'block';
-          bar.style.display = 'none';
+
           loading.style.display = 'none';
         },
         onend: function() {
-          // Stop the wave animation.
-          wave.container.style.display = 'none';
-          bar.style.display = 'block';
+
           self.skip('next');
         },
         onpause: function() {
-          // Stop the wave animation.
-          wave.container.style.display = 'none';
-          bar.style.display = 'block';
+
         },
         onstop: function() {
-          // Stop the wave animation.
-          wave.container.style.display = 'none';
-          bar.style.display = 'block';
+
         },
         onseek: function() {
           // Start upating the progress of the track.
@@ -272,18 +264,18 @@ Player.prototype = {
 // Setup our new audio player class and pass it the playlist.
 var player = new Player([
   {
-    title: 'Alex',
-    file: 'alex',
+    title: 'Lorraine',
+    file: '012_lorraine',
     howl: null
   },
   {
-    title: '80s Vibe',
-    file: '80s_vibe',
+    title: 'Jane',
+    file: '010-TaylorsMistake',
     howl: null
   },
   {
-    title: 'Running Out',
-    file: 'running_out',
+    title: 'Michele',
+    file: '007-German-north-sea',
     howl: null
   }
 ]);
@@ -301,9 +293,10 @@ prevBtn.addEventListener('click', function() {
 nextBtn.addEventListener('click', function() {
   player.skip('next');
 });
-waveform.addEventListener('click', function(event) {
+/*waveform.addEventListener('click', function(event) {
   player.seek(event.clientX / window.innerWidth);
 });
+*/
 playlistBtn.addEventListener('click', function() {
   player.togglePlaylist();
 });
@@ -358,7 +351,7 @@ var wave = new SiriWave({
   amplitude: 0.7,
   frequency: 2
 });
-wave.start();
+//wave.start();
 
 // Update the height of the wave animation.
 // These are basically some hacks to get SiriWave.js to do what we want.
@@ -383,5 +376,5 @@ var resize = function() {
     sliderBtn.style.left = (window.innerWidth * barWidth + window.innerWidth * 0.05 - 25) + 'px';
   }
 };
-window.addEventListener('resize', resize);
-resize();
+//window.addEventListener('resize', resize);
+//resize();

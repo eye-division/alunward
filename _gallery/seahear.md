@@ -7,7 +7,7 @@ frontpagetitle: "Sea Hear"
 homepage_description_markdown: >-
   Sea Hear originated with recordings of people's memories of the sea or seaside. These stories are then relayed and remixed through miniature speakers embedded in a small beach of pebbles.
 gallery_date: 2016-05-01 00:00:00
-display_image: true
+display_image: false
 main_image_path: "/assets/images/551960e522ca5.jpg"
 main_image_caption: "Pebble audio - 1"
 thumb_crop: true
