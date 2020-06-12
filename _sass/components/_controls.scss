@@ -1,3 +1,10 @@
+/* player container */
+.audioPlayer {
+  position: relative; 
+  min-height: 200px;
+  background: $black; 
+}
+
 /* Top Info */
 #title {
   position: absolute;
@@ -180,14 +187,14 @@
   }
 }
 
-/* Plylist */
+/* Playlist */
 #playlist {
   width: 100%;
   height: 100%;
   position: absolute;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.5);
   display: none;
 }
 #list {
@@ -212,9 +219,9 @@
 }
 .list-song {
   width: 100%;
-  height: 120px;
-  font-size: 50px;
-  line-height: 120px;
+  height: 1.5em;
+  font-size: 1.5em;
+  line-height: 1.8em;
   text-align: center;
   font-weight: bold;
   color: #fff;
