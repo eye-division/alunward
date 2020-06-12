@@ -57,7 +57,7 @@ Player.prototype = {
       //'/assets/audio/' + data.file + '.webm', 
       sound = data.howl = new Howl({
         // src: ['/assets/audio/' + data.file + '.mp3'],
-        src: ['https://eyedivision.fra1.digitaloceanspaces.com/seahear/' + data.file + '.mp3']
+        src: ['https://eyedivision.fra1.digitaloceanspaces.com/seahear/' + data.file + '.mp3'],
         html5: true, // Force to HTML5 so that the audio can stream in (best for large files).
         onplay: function() {
           // Display the duration.
