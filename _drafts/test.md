@@ -1,7 +1,7 @@
 ---
 layout: post
 title: test
-date:
+date: 2021-01-09 18:33:04
 main_image_path:
 images:
   - image_path:
@@ -13,3 +13,4 @@ _options:
     resize_style: contain
     mime_type: image/jpeg
 ---
+
