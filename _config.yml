@@ -19,7 +19,7 @@ description: UK based artist
 # root of your server.
 baseurl: ""
 # the base hostname & protocol for your site
-url: "https://famous-penguin.cloudvent.net"
+url: "https://dev.alunward.co.uk"
 
 asset_url: "/assets/"
 
