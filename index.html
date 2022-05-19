@@ -50,7 +50,7 @@ _comments:
   {% endif %}
 
   <div class="editable">
-    <p>Alun uses sound, projection and sculpture to explore the overlap between a general mood evoked by soundscapes, and specific personal memories. He works with a sculptural combination of technology and the natural world to explore the way that touch affects our memory.</p>
+   
 
   </div>
 
@@ -79,66 +79,72 @@ _comments:
       {% endif %}
 
       <!-- Regular page promotions on front page -->
-      {% for section in site.pages %}
+      <div class="columns-2">
+      
+        {% for section in site.pages %}
 
-      {% if section.frontpage %}
+          {% if section.frontpage %}
 
-        {% if section.main_image_path %}
-          <section class="gallery--cover has--cover" style="background-image: url({{ section.main_image_path }});">
-        {% else %}
-          <section class="gallery--cover has--cover" style="background-image: url('https://placekitten.com/g/1200/300');">
+          {% if section.main_image_path %}
+            <section class="gallery--cover has--cover" style="background-image: url({{ section.main_image_path }});">
+          {% else %}
+            <section class="gallery--cover has--cover" style="background-image: url('https://placekitten.com/g/1200/300');">
+          {% endif %}
+
+            <a href="{{ section.url | prepend: site.baseurl }}">
+
+              <div class="scrim has--cover">
+                <article class="gallery--front">
+                  <header class="gallery--header">
+                    <h2 class="text-lg cover--title mb0">{{ section.frontpagetitle }}</h2>
+                  </header>
+                  {% if section.homepage_description_markdown %}
+                    {{ section.homepage_description_markdown | markdownify }}
+                    <span class="post--readmore">Read more <span> <svg class="icon icon--post"><use xlink:href="#icon-double_angle_right" /></svg></span>
+
+                  {% endif %}
+              </span>
+            </article>
+            </div>
+            </a>
+          </section>
+
         {% endif %}
 
-          <a href="{{ section.url | prepend: site.baseurl }}">
+      {% endfor %}
 
-            <div class="scrim has--cover">
-              <article class="gallery--front">
-                <header class="gallery--header">
-                  <h2 class="cover--title mb0">{{ section.frontpagetitle }}</h2>
-                </header>
-                {% if section.homepage_description_markdown %}
-                  {{ section.homepage_description_markdown | markdownify }}
-                  <span class="post--readmore">Read more <span> <svg class="icon icon--post"><use xlink:href="#icon-double_angle_right" /></svg></span>
+    </div>
 
-                {% endif %}
-            </span>
-          </article>
+  <!-- order galleries by date -->
+  {% assign galleries = site.gallery | sort: 'gallery_date' | reverse %}
+  <div class="columns-3">
+  {% for gallery in galleries %}
+
+    {% if gallery.frontpage %}
+      
+      <div class="max-w-md mx-auto rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+        <div class="md:flex">
+          <div class="md:shrink-0">
+            <img class="h-48 w-full object-cover md:h-full md:w-48" src="{{ gallery.main_image_path | prepend: gallery.baseurl }}" alt="{{ gallery.frontpagetitle }}">
           </div>
-          </a>
-        </section>
+          <div class="p-8">
 
-      {% endif %}
+            <a href="{{ gallery.url | prepend: site.baseurl }}" class="block uppercase tracking-wide text-sm  font-semibold hover:underline">{{ gallery.frontpagetitle }}</a>
+            
+            {% if gallery.homepage_description_markdown %}
+              <p class="mt-2">
+              {{ gallery.homepage_description_markdown | markdownify }} 
+              </p> 
+            {% endif %}
+          
+          </div>
+        </div>
+      </div>
 
-    {% endfor %}
+    {% endif %}
 
-    <!-- order galleries by date -->
-    {% assign galleries = site.gallery | sort: 'gallery_date' | reverse %}
-    
-    {% for gallery in galleries %}
-
-      {% if gallery.frontpage %}
-
-        <section class="gallery--cover {% if gallery.main_image_path %}has--cover{% endif %}" {% if gallery.main_image_path %}style="background-image: url({{ gallery.main_image_path | prepend: gallery.baseurl }});"{% endif %}>
-
-          <a href="{{ gallery.url }}">
-
-            <div class="scrim {% if gallery.main_image_path %}has--cover{% endif %}">
-              <article class="gallery--front">
-                <header class="gallery--header">
-                  <h2 class="cover--title mb0">{{ gallery.frontpagetitle }}</h2>
-                </header>
-                {% if gallery.homepage_description_markdown %}
-                  {{ gallery.homepage_description_markdown | markdownify }} <span class="post--readmore">View gallery  <svg class="icon icon--post"><use xlink:href="#icon-double_angle_right" /></svg></span>
-                {% endif %}
-              </article>
-            </div>
-          </a>
-        </section>
-
-      {% endif %}
-
-    {% endfor %}
-
+  {% endfor %}
+</div>
 
 {% if page.show_blog %}
 

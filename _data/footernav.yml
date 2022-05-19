@@ -1,0 +1,10 @@
+- title: "Galleries"
+  href: "/gallery/"
+  subcategories:
+    - subtitle: "Shadow Me"
+      subhref: "/shadow-me/"
+    - subtitle: "Goldschmidt's Miscellany"
+      subhref: "/golschmidt"
+
+- title: "About"
+  href: "/about/"

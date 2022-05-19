@@ -6,11 +6,16 @@ _site
 # Sass garbage
 .sass-cache
 
+.jekyll-cache
+
+node_modules
+
 # Bundler
 Gemfile.lock
 .bundle/
 vendor/
 nbproject
+package-lock.json
 
 # Need to allow our SASS vendor folder
 !_sass/vendor/

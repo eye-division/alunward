@@ -37,15 +37,13 @@
   <meta property="og:image:height" content="{{ site.fb_image_height }}">
   <meta property="og:image" content="{{ site.fb_image | prepend: site.baseurl }}">
   <!-- Site styles -->
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <!-- <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}"> -->
+  <!-- Tailwind CSS -->
+  <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
 
-  <script
-        src="https://code.jquery.com/jquery-2.2.4.min.js"
-        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-        crossorigin="anonymous"></script>
-        
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK" crossorigin="anonymous"></script>
+
 
 </head>

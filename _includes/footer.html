@@ -1,9 +1,9 @@
-<footer class="site--footer">
+<footer class="container p-8 mx-auto text-center">
 
-  <div class="footer--wrapper">
+  <div>
 
-    <div class="site--signature">
-      <p class="text">&copy; All work is copyright the artist, no reproduction without permission.</p>
+    <div>
+      <p>&copy; All work is copyright the artist, no reproduction without permission.</p>
     </div>
 
 
@@ -26,14 +26,3 @@
 <script id="dsq-count-scr" src="//{{ site.disqus_shortname }}.disqus.com/count.js" async></script>
 {% endif %}
 
-<script>
-  if (window.netlifyIdentity) {
-    window.netlifyIdentity.on("init", user => {
-      if (!user) {
-        window.netlifyIdentity.on("login", () => {
-          document.location.href = "/admin/";
-        });
-      }
-    });
-  }
-</script>

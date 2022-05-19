@@ -8,6 +8,7 @@ plugins:
    - jekyll/tagging
    - jekyll-tagging-related_posts
    - jekyll-cloudinary
+   - jekyll-postcss
 
 # Site settings
 title: Alun Ward
@@ -19,10 +20,14 @@ description: UK based artist
 # root of your server.
 baseurl: ""
 # the base hostname & protocol for your site
-url: "https://dev.alunward.co.uk"
+url: "https://www.alunward.co.uk"
 
 asset_url: "/assets/"
 
+# PostCSS directive
+postcss:
+  cache: false
+  
 logo: "/assets/logo.png"
 show_logo: false
 email: a.ward@eyedivision.com

@@ -13,7 +13,7 @@ layout: default
     <figure>
     {% assign alt_text = page.title %}
     {% if page.main_image_caption %} {% assign alt_text = page.main_image_caption %} {% endif %}
-    {% include cloudinary.html src=page.main_image_path alt=alt_text %}
+    {% include img.html src=page.main_image_path alt=alt_text %}
     {% if page.main_image_caption %}<figcaption>{{ alt_text }}</figcaption>{% endif %}
     </figure>
   {% endif %}
@@ -39,13 +39,13 @@ layout: default
               {% if page.thumb_crop %}
 
                 <!-- cropped square images -->
-                {% include cloudinary.html src=image alt=thisimage.image_title %}
+                {% include img.html src=image alt=thisimage.image_title %}
                 <!-- end cropped square -->
 
               {% else %}
 
                 <!-- full format images -->
-                {% include cloudinary.html src=image alt=thisimage.image_title %}
+                {% include img.html src=image alt=thisimage.image_title %}
                  <!-- end format images -->
                {% endif %}
 
