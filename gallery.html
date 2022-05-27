@@ -41,27 +41,27 @@ _comments:
 
 </div>
 
-<div class="gallery">
+<div class="flex flex-wrap -mx-3">
 
-<!-- order galleries by date -->
-{% assign galleries = site.gallery | sort: 'gallery_date' | reverse %}
+  <!-- order galleries by date -->
+  {% assign galleries = site.gallery | sort: 'gallery_date' | reverse %}
 
-{% for gallery in galleries %}
+  {% for gallery in galleries %}
+    <div class="w-full lg:w-1/3 px-3 mb-12">
+      <a href="{{ gallery.url }}">
+        <img class="h-80 w-full object-cover rounded" src="{{ gallery.main_image_path | prepend: gallery.baseurl }}" alt="{{ gallery.frontpagetitle }}">
 
-     <section class="gallery--cover {% if gallery.main_image_path %}has--cover{% endif %}" {% if gallery.main_image_path %}style="background-image: url({{ gallery.main_image_path | prepend: gallery.baseurl }});"{% endif %}>
-          <a href="{{ gallery.url }}">
-            <div class="scrim {% if gallery.main_image_path %}has--cover{% endif %}">
-            <article class="gallery--front">
-              <header class="gallery--header">
-                <h2 class="cover--title mb0">{{ gallery.title }}</h2>
-              </header>
-              {% if gallery.homepage_description_markdown %}
-              {{ gallery.homepage_description_markdown | markdownify }}  <span class="post--readmore">View gallery <svg class="icon"><use xlink:href="#icon-double_angle_right" /></svg></span>
-                {% endif %}
-          </article>
-          </div>
-        </a>
-      </section>
+          <p class="my-2 text-2xl font-bold font-heading">
+          {{ gallery.frontpagetitle }}
+          </p> 
+          {% if gallery.homepage_description_markdown %}
+            <p class="mt-2 text-blueGray-400 leading-loose">
+            {{ gallery.homepage_description_markdown | markdownify }} 
+            </p>
+          {% endif %}
+              
+      </a>
+    </div>
 
-{% endfor %}
+  {% endfor %}
 </div>

@@ -2,31 +2,23 @@
 layout: default
 ---
 
-<div class="page">
+<div class="container px-4 mx-auto">
 
   {% if page.display_title %}
   <header class="page--header">
-    <h1 class="page--title">{{ page.title }}</h1>
+    <h1 class="text-3xl lg:text-4xl mb-8 font-bold font-heading">{{ page.title }}</h1>
   </header>
   {% endif %}
 
   <article>
     
-
-
     {% if page.main_image_path and page.display_image %}
-
       <figure class="gallery--feature">
       {% assign alt_text = page.title %}
-
       {% if page.main_image_caption %} {% assign alt_text = page.main_image_caption %} {% endif %}
-
       <a href="{% include imgpath.html src=page.main_image_path %}" class="galleryphoto" data-lightbox="gallery" data-title="{{ page.main_image_caption }}">
-
         {% include img.html src=page.main_image_path alt=alt_text %}
-
       </a>
-
       {% if page.main_image_caption %}
         <figcaption>{{ alt_text }}</figcaption>
       {% endif %}
@@ -37,7 +29,7 @@ layout: default
 
     {% if page.images[0].image_path %}
 
-    <section class="gallery--list">
+    <div class="flex flex-wrap -mx-3">
 
       {% for thisimage in page.images %}
 
@@ -46,7 +38,7 @@ layout: default
           {% assign image = thisimage.image_path %}
         {% endif %}
 
-          <div class="gallery--box">
+          <div class="w-full lg:w-1/3 px-3 mb-12">
 
             <a href="{% include imgpath.html src=image %}" class="gallery--link" data-lightbox="gallery" data-title="{{ thisimage.image_title }}{% if thisimage.image_description %} - {{ thisimage.image_description }}{% endif %}">
 
@@ -68,20 +60,12 @@ layout: default
                 {% endif %}
 
             </a>
-
-
-
           </div>
-
-
       {% endfor %}
-
-    </section>
-
+        </div>
     {% endif %}
 
     <section class="main--content">
-
       {% if content %}
 
         {{ content }}
