@@ -22,8 +22,6 @@ baseurl: ""
 # the base hostname & protocol for your site
 url: "https://www.alunward.co.uk"
 
-asset_url: "/assets/"
-
 # PostCSS directive
 postcss:
   cache: false
@@ -147,8 +145,8 @@ _options:
 # Disqus comments
 disqus_shortname: alun-ward
 
-# Google analytics
-ga_tracking_id: "UA-6726212-1"
+# G4 Google analytics
+ga_tracking_id: "G-5804XENJEZ"
 
 # Google Recaptcha used for contact form
 recaptcha_site_key: "6LcNYBQUAAAAAALGOjCFo1CKxb65aFTFelMJo1YF"
@@ -192,9 +190,9 @@ social:
 
   - name: Twitter
     icon: icon-twitter_sign
-    username: '@lunaEye'
-    url: https://twitter.com/lunaEye
-    desc: Follow me on Twitter
+    username: 
+    url: 
+    desc: 
     share: true
 
   - name: Pinterest
@@ -212,9 +210,9 @@ social:
     share: true
 
   - name: flickr
-    icon: icon-flickr_sign
-    username: 'lunaman'
-    url: https://www.flickr.com/photos/lunaman/
+    icon: 
+    username: 
+    url: 
     desc: Flickr
     share: true
 
