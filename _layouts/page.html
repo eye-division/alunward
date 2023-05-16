@@ -2,7 +2,7 @@
 layout: default
 
 ---
-<div class="container px-4 mx-auto">
+
   {% if page.show_title %}
   <header class="page--header">
     <h1 class="page--title">{{ page.title }}</h1>
@@ -13,7 +13,7 @@ layout: default
     <figure>
     {% assign alt_text = page.title %}
     {% if page.main_image_caption %} {% assign alt_text = page.main_image_caption %} {% endif %}
-    {% include img.html src=page.main_image_path alt=alt_text %}
+    {% include img.html src=page.main_image_path class="pure-img" alt=alt_text %}
     {% if page.main_image_caption %}<figcaption>{{ alt_text }}</figcaption>{% endif %}
     </figure>
   {% endif %}
@@ -65,6 +65,3 @@ layout: default
     </section>
 
     {% endif %}
-
-</div>
-
