@@ -13,4 +13,5 @@ group :jekyll_plugins do
   # Oct 2018 - replace jekyll sass gem with sassc
   gem 'sassc'
   gem "jekyll-cloudinary"
+
 end

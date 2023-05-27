@@ -52,11 +52,11 @@ _comments:
       <a href="{{ gallery.url }}">
         <img class="pure-img" src="{{ gallery.main_image_path | prepend: gallery.baseurl }}" alt="{{ gallery.frontpagetitle }}">
       </a>
-      <p class="my-2 text-2xl font-bold font-heading">
+      <h3 class="">
       {{ gallery.frontpagetitle }}
-      </p> 
+      </h3> 
       {% if gallery.homepage_description_markdown %}
-        <p class="mt-2 text-blueGray-400 leading-loose">
+        <p class="">
         {{ gallery.homepage_description_markdown | markdownify }} 
         </p>
       {% endif %}

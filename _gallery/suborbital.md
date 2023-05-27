@@ -72,6 +72,3 @@ In 1852 the painter <a href="https://en.wikipedia.org/wiki/Hermann_Goldschmidt">
 Inspired by these brilliant and slightly odd people, Alun Ward created <em>Fly me to the Moon</em>, a computer-based installation which uses random methods to drive asteroids across a projected screen. As they pass by on their lonely journeys, they seem to generate sounds. Human and extraterrestrial noises coincide on the otherwise silent screen, and a new music of the spheres is born.
 <!-- Play the web version of this movie <a href="../media/flash/flyme.swf">Fly Me</a> (160Kb). You'll need the Flash Player for this. -->
 
-Listen to the sounds of the cosmos: from pulsars to Jupiter's magnetosphere, from recordings from the Apollo 11 landings to the sounds of Sputnik.
-
-Turn the lights off and the sound up!

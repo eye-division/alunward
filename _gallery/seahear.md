@@ -60,20 +60,3 @@ _comments:
 
 <strong>Sea Hear</strong> was part of **Seeing Sound from Inside Out** at Fringe Arts Bath in May 2015. Visitors to the exhibition were invited to record their memories and experiences of the sea.
 
-
-<script>
-/*
-var sound = new Howl({
-  src: ['/assets/audio/alex.wav'],
-  autoplay: true,
-  loop: true,
-  volume: 1,
-  onend: function() {
-    console.log('Finished!');
-  }
-});
-*/
-
-</script>
-
-{% include player.html %}

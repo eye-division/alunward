@@ -137,9 +137,6 @@ _options:
 # PayPal merchant ID
 # paypal_id:
 
-# Disqus comments
-disqus_shortname: alun-ward
-
 # G4 Google analytics
 ga_tracking_id: "G-5804XENJEZ"
 
