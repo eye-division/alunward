@@ -5,7 +5,7 @@ permalink: /sketches/
 frontpage: false
 frontpagetitle: "Sketches"
 homepage_description_markdown: >-
-  
+  Sketches from the ... sketchbook
 gallery_date: 2005-05-01 00:00:00
 display_image: true
 main_image_path: /assets/images/46e84cdfd0e28.jpg
@@ -86,3 +86,4 @@ _comments:
   frontpagetitle: Title for homepage display
   homepage_description_markdown: Text used on homepage if shown
 ---
+From the sketchbook.

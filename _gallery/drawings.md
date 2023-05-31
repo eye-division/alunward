@@ -5,7 +5,7 @@ permalink: /drawings/
 frontpage: true
 frontpagetitle: "Shadow drawings"
 homepage_description_markdown: >-
-  This series of shadow drawings was prompted by the search for narrative in previous abstract works. 
+  What does it mean? A series of shadow drawings prompted by the search for narrative in abstract works. 
 gallery_date: 2000-05-01 00:00:00
 display_image: true
 main_image_path: "/assets/images/46eee995f1247.jpg"
@@ -119,4 +119,4 @@ _comments:
   frontpagetitle: Title for homepage display
   homepage_description_markdown: Text used on homepage if shown
 ---
-This series of shadow drawings was prompted by the search for narrative in previous abstract works. Soon afterwards I came across <strong>Adalbert von Chamisso's</strong>, the author of <em>Peter Schlemihls wundersame Geschichte</em>, 1814, or <a href="http://www.gutenberg.org/etext/5339" title="Read the text on Project Gutenberg">The Man Who Sold His Shadow</a>, a popular children's tale even today. A year later Chamisso travelled as naturalist on the Rurik Expedition to discover a north-east passage in the Bering Straits. His tale of the shadow can be read as a reflection of his own feelings of dislocation and homelessness as a Frenchman by birth living on German soil. He was a poet of the Romantic movement who spent his life as a naturalist in the pursuit of truth in science.
+A series of shadow drawings hunting for a narrative in abstract works. I came across <strong>Adalbert von Chamisso's</strong> <a href="https://www.gutenberg.org/etext/5339" title="Read the text on Project Gutenberg">The Man Who Sold His Shadow</a> (<em>Peter Schlemihls wundersame Geschichte</em>, 1814). A year later Chamisso travelled as naturalist on the Rurik Expedition to hunt for a north-east passage in the Bering Straits. His tale of the shadow can be read as a reflection of his own feelings of dislocation and homelessness as a Frenchman living on German soil. He was a poet of the Romantic movement who spent his life as a naturalist in the pursuit of truth in science. <a href="/shadow-me/">These shadow drawings developed into a seven minute animated film.</a>

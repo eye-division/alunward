@@ -6,7 +6,7 @@ frontpage: true
 frontpagetitle: "Park Meter"
 homepage_description_markdown: >-
   *The Pinetum is no place to park your tree* 
-  An old fashioned parking meter, installed next to a large Pseudotsuga Menziesii (Douglas Fir) which had been parked for far too long in Nuneham Courtenay Arboretum. 
+  A parking meter installed next to a large Douglas Fir in Nuneham Courtenay Arboretum. 
 gallery_date: 2009-05-01 00:00:00
 display_image: true
 main_image_path: "/assets/images/park-meter1.jpg"
@@ -54,7 +54,7 @@ _comments:
   frontpagetitle: Title for homepage display
   homepage_description_markdown: Text used on homepage if shown
 ---
-An old fashioned parking meter, installed next to a large Pseudotsuga Menziesii (Douglas Fir) which had been parked for far too long in Nuneham Courtenay Arboretum.
+An old fashioned parking meter, installed next to a large Douglas Fir (Pseudotsuga Menziesii) which had been parked for far too long in Nuneham Courtenay Arboretum.
 
 In July 2009 I was part of an international project at The University of Oxford Harcourt Arboretum, Nuneham Courtenay, working with eleven other artists, some from France, Germany and Romania.
 

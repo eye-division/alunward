@@ -5,7 +5,7 @@ permalink: /kamarupa/
 frontpage: true
 frontpagetitle: "Kamarupa"
 homepage_description_markdown: >-
-  The <strong>Kamarupa</strong> series of paintings developed from abstract paintings, in which sections were removed from large expressive canvases and re-hung, framed inside white panels. 
+  Cloud sections re-hung framed inside white panels. 
 gallery_date: 2001-05-01 00:00:00
 display_image: true
 main_image_path: "/assets/images/46e84c8214ac9.jpg"
@@ -68,6 +68,6 @@ _comments:
   frontpagetitle: Title for homepage display
   homepage_description_markdown: Text used on homepage if shown
 ---
-The <strong>Kamarupa</strong> series of paintings developed from abstract paintings, in which sections were removed from large expressive canvases and re-hung, framed inside white panels.
+The <strong>Kamarupa</strong> series of paintings developed from abstract paintings, in which sections removed from large expressive canvases were re-hung, framed in white gesso panels.
 
-I began to experiment with the use of clouds, forms which are fleeting and often boundary-less. Alongside this practical development was a continuing fascination with the use of names to classify and make sense of the world. A previous work involved the discovery and naming of asteroids by a nineteenth century painter, Hermann Goldschmidt.  In this instance I came across the history of Luke Howard and his definitions of clouds - cumulus, cirrus, etc. It seems that by concentrating on the small essential elements of nature, he was hoping to gain a sense of the bigger picture.
+I began to experiment with the use of cloud forms, fleeting and boundary-less. Alongside this practical development was a continuing interest in the  names used to classify and make sense of the world. A <a href="/goldschmidt/">previous work</a> involved the discovery and naming of asteroids by a nineteenth century painter, Hermann Goldschmidt.  I came across the history of Luke Howard and his definitions of clouds - cumulus, cirrus, etc. It seems that by concentrating on the small essential elements of nature, he was hoping to gain a sense of the bigger picture.

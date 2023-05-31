@@ -5,7 +5,7 @@ permalink: /abstracts/
 frontpage: true
 frontpagetitle: "Abstract paintings"
 homepage_description_markdown: >-
-  A selection of abstract oil and acrylic paintings produced from the studio in Christ Church, Oxford, from 1994 to 2003.
+  A selection of abstract oil and acrylic paintings produced from 1994 to 2003.
 gallery_date: 1995-05-01 00:00:00
 display_image: true
 main_image_path: "/assets/images/46f25f422a59c.jpg"
@@ -107,6 +107,6 @@ _comments:
   frontpagetitle: Title for homepage display
   homepage_description_markdown: Text used on homepage if shown
 ---
-A selection of abstract oil and acrylic paintings produced from the studio in Christ Church, Oxford, from 1994 to 2003.
+A selection of abstract oil and acrylic paintings produced from in Oxford from 1994 to 2003.
 
-These developed finally into the <a href="/goldschmidt/">Goldschmidt series</a> of asteroid paintings, and the <a href="/kamarupa/">Kamarupa series</a> of cloud paintings, since when my work has branched into video and installation work.
+These developed into the <a href="/goldschmidt/">Goldschmidt series</a> of asteroid paintings, and the <a href="/kamarupa/">Kamarupa series</a> of cloud paintings.

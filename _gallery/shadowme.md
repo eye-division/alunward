@@ -5,8 +5,7 @@ permalink: /shadow-me/
 frontpage: true
 frontpagetitle: "Shadow Me"
 homepage_description_markdown: >-
-  This series of shadow drawings was prompted by the search for narrative in previous abstract works. Soon afterwards I came across **Adalbert von Chamisso's** nineteenth century tale of Peter Schlemihl, *The Man who Sold His Shadow*.
-  The drawings soon came to resemble frames from a film, and the obvious next step was taken with *Shadow Me*, a seven minute long animated movie with music by composer Pia Silvi.
+  The shadow drawings looked a lot like frames from a film, so the obvious next step was a seven minute long animated movie with music by composer Pia Silvi.
 gallery_date: 2003-05-01 00:00:00
 display_image: true
 main_image_path: /assets/images/46f2d87286761.jpg
@@ -69,8 +68,8 @@ _comments:
   frontpagetitle: Title for homepage display
   homepage_description_markdown: Text used on homepage if shown
 ---
-This series of shadow drawings was prompted by the search for narrative in previous abstract works. Soon afterwards I came across **Adalbert von Chamisso's** nineteenth century tale of Peter Schlemihl, *The Man who Sold His Shadow*.
 
-The drawings soon came to resemble frames from a film, and the obvious next step was taken with *Shadow Me*, a seven minute long animated movie with music by composer Pia Silvi.
+
+The <a href="/drawings/">shadow drawings</a> soon came to resemble frames from a film, and the obvious next step was taken with *Shadow Me*, a seven minute long animated movie with music by composer Pia Silvi.
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Q4eCsQmbquQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

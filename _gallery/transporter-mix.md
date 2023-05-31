@@ -5,7 +5,7 @@ permalink: /transporter-mix/
 frontpage: true
 frontpagetitle: "Transporter Mix"
 homepage_description_markdown: >-
-  Transporter Mix is a participatory installation/performance that invites you to take your shoes off and step into three micro-environments linked, via similar sounds, to very different locations and places in time. 
+  A participatory installation that invites you to take your shoes off and step into three micro-environments linked, via audio, to very different locations and places in time. 
 gallery_date: 2010-05-01 00:00:00
 display_image: true
 main_image_path: "/assets/images/49764092c566f.jpg"
@@ -68,4 +68,4 @@ _comments:
 
 The short film <a href="/run/">RUN</a> used the sound of running footsteps on a variety of surfaces  to explore movement, place, and stillness. Continuing this interest in sound and surface, <strong>Transporter Mix</strong> is a participatory installation/performance that invites you to take your shoes off and step into three micro-environments linked, via similar sounds, to very different locations and places in time. Field recordings from around the UK taken by the artist are mixed according to your location within the piece, allowing you to be both 'inside' and 'outside', to travel and to stand still.
 
-Transporter Mix takes various forms, most often as a portable set of three trays, each one with a different surface for your feet. It was shown at a variety of locations including: the Warneford Hospital on World Mental Health Day, Metron exhibition and the OVADA Gallery in Oxford in 2009.
+Transporter Mix takes various forms, most often as a portable set of three trays, each one with a different surface for your feet. It was shown at a variety of locations including: the Warneford Hospital on World Mental Health Day, Metron exhibition and the OVADA Gallery in Oxford.

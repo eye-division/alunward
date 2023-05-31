@@ -5,7 +5,7 @@ permalink: /suborbital/
 frontpage: true
 frontpagetitle: "Suborbital Harmonic Resonator"
 homepage_description_markdown: >-
-  The Suborbital Harmonic Resonator kiosk is a totally self-contained aluminium and wood structure housing three monitors and a PC. No user intervention is required once the SHAR  is installed. It can power itself down every night automatically and it's possible to install it either with speakers, or headphones as appropriate. There is also an interactive game version of Fly Me which uses a modular addition to the kiosk to enable users to interact.
+  The Suborbital Harmonic Resonator was a mobile self-contained aluminium and wood kiosk housing three monitors and a PC. No user intervention is required once the SHAR is installed.
 gallery_date: 2003-05-01 00:00:00
 display_image: true
 main_image_path: "/assets/images/46f17f392ad12.jpg"
@@ -59,9 +59,10 @@ _comments:
   frontpagetitle: Title for homepage display
   homepage_description_markdown: Text used on homepage if shown
 ---
-The <strong>Suborbital Harmonic Resonator</strong> kiosk is a totally self-contained aluminium and wood structure housing three monitors and a PC. No user intervention is required once the SHAR  is installed. It can power itself down every night automatically and it's possible to install it either with speakers, or headphones as appropriate. There is also an interactive game version of Fly Me which uses a modular addition to the kiosk to enable users to interact.
+<p class="lead">
+<a href="/goldschmidt">Goldschmidt's Miscellany</a> developed into he <strong>The Suborbital Harmonic Resonator</strong> kiosk is a totally self-contained aluminium and wood structure housing three monitors and a PC. No user intervention is required once the SHAR  is installed. It can power itself down every night automatically and it's possible to install it either with speakers, or headphones as appropriate. There is also an interactive game version of Fly Me which uses a modular addition to the kiosk to enable users to interact.</p>
 
-##Fly Me to the Moon
+<h3>Fly Me to the Moon</h3>
 
 Fly me to the Moon is an attempt to recreate the music of the spheres.
 
@@ -70,5 +71,3 @@ In 1618 Johannes Kepler completed a motet, successfully re-creating the harmonio
 In 1852 the painter <a href="https://en.wikipedia.org/wiki/Hermann_Goldschmidt">Hermann Goldschmidt</a> made the first of his fourteen asteroid discoveries from a small room in the Café Procope in Paris.
 
 Inspired by these brilliant and slightly odd people, Alun Ward created <em>Fly me to the Moon</em>, a computer-based installation which uses random methods to drive asteroids across a projected screen. As they pass by on their lonely journeys, they seem to generate sounds. Human and extraterrestrial noises coincide on the otherwise silent screen, and a new music of the spheres is born.
-<!-- Play the web version of this movie <a href="../media/flash/flyme.swf">Fly Me</a> (160Kb). You'll need the Flash Player for this. -->
-

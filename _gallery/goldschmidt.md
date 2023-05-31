@@ -5,7 +5,7 @@ permalink: /goldschmidt/
 frontpage: true
 frontpagetitle: "Goldschmidt's Miscellany"
 homepage_description_markdown: >-
-  A set of paintings inspired by the asteroid discoveries of nineteenth century painter and astronomer Hermann Goldschmidt (1802-66)
+  Inspired by the asteroid discoveries of painter and astronomer Hermann Goldschmidt (1802-66)
 gallery_date: 1999-05-01 00:00:00
 display_image: true
 main_image_path: "/assets/images/goldschmidt-miscellany.jpg"

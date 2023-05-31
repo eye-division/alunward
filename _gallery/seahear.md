@@ -5,7 +5,7 @@ permalink: /seahear/
 frontpage: true
 frontpagetitle: "Sea Hear"
 homepage_description_markdown: >-
-  Sea Hear originated with recordings of people's memories of the sea or seaside. These stories are then relayed and remixed through miniature speakers embedded in a small beach of pebbles.
+  Recordings of people's memories of the sea or seaside relayed and remixed through miniature speakers embedded in a small beach of pebbles.
 gallery_date: 2016-05-01 00:00:00
 display_image: false
 main_image_path: "/assets/images/551960e522ca5.jpg"
@@ -58,5 +58,5 @@ _comments:
 ---
 <strong>Sea Hear</strong> originated with recordings of people's memories of the sea or seaside. These stories are then relayed and remixed through miniature speakers embedded in a small beach of pebbles. The recordings mingle and merge into a sea of sound where the voices are barely distinguishable, and only on holding and lifting a pebble to the ear can individual stories be heard.
 
-<strong>Sea Hear</strong> was part of **Seeing Sound from Inside Out** at Fringe Arts Bath in May 2015. Visitors to the exhibition were invited to record their memories and experiences of the sea.
+<strong>Sea Hear</strong> was part of **Seeing Sound from Inside Out** at Fringe Arts Bath in 2015. Visitors to the exhibition were invited to record their memories and experiences of the sea.
 

@@ -65,8 +65,8 @@ _comments:
   frontpagetitle: Title for homepage display
   homepage_description_markdown: Text used on homepage if shown
 ---
-I started to run regularly in 2004, swiftly fell in love with it, and since then have spent more hours on the trail then I have in the studio. 'Run' represents a first attempt to unite these two consuming pursuits. My aim in creating the piece was to try to give a sense of running as a rhythmical and visual experience which isn't necessarily about reaching an end point. Nonetheless, I wanted to link this directly to particular places and times of day, and to encourage viewers to encounter even familiar places afresh.
+I started to run regularly in 2004. 'Run' represents my first attempt to unite running and art. I tried to recreate the sense of running as a rhythmical and visual experience which isn't necessarily about reaching an end point. Nonetheless, I wanted to link this directly to particular places and times of day, and to encourage viewers to encounter familiar places afresh.
 
-A Short Run is a five minute video, a version of the full RUN which lasts 30 minutes. The film was first shown at the Metron exhibition with Clare Carswell in Oxford in 2007.
+<em>A Short Run</em> is a five minute video, a version of the full RUN which lasts 30 minutes. The film was first shown at the Metron exhibition in Oxford in 2007.
 
 <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/46372148&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>

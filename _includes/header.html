@@ -12,14 +12,27 @@
       <a href="#" class="custom-menu-toggle" id="toggle"><s class="bar"></s><s class="bar"></s></a>
   </div>
 
-  <div class="pure-menu pure-menu-horizontal pure-menu-scrollable custom-menu custom-menu-bottom custom-menu-tucked" id="tuckedMenu">
+  <div class="pure-menu pure-menu-horizontal custom-menu custom-menu-bottom custom-menu-tucked" id="tuckedMenu">
     <div class="custom-menu-screen"></div>
       <ul class="pure-menu-list">
+
         {% for link in site.data.nav %}
 
           {% unless link.href == "/" and page.url == "/" %}
-            <li class="pure-menu-item{% if page.url == link.href %} pure-menu-selected{% endif %}">
+            <li class="pure-menu-item{% if page.url == link.href %} pure-menu-selected{% endif %}{% if link.subcategories %} pure-menu-has-children pure-menu-allow-hover{%endif %}">
               <a href="{{ link.href | prepend: site.baseurl }}"  class="pure-menu-link">{{ link.title }}</a>
+
+              {% if link.subcategories %}
+                <ul class="pure-menu-children">
+                {% for sublink in link.subcategories %}
+              
+                  <li class="pure-menu-item">
+                      <a href="{{ sublink.subhref | prepend: site.baseurl }}" class="pure-menu-link">{{ sublink.subtitle }}</a>
+                  </li>
+                  {% endfor %}
+              </ul>
+              {% endif %}
+
             </li>
           {% endunless %}
 
