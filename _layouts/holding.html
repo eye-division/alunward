@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include head.html %}
+
+  <body class="front p-5 m-5">
+    
+    <header class="" role="banner">
+          
+            <div class="text-center">
+
+                {% if site.logo and site.show_logo %}
+
+                    {% include img.html src=site.logo width=150 class="header--logo" alt=site.title %}
+
+                {% else %}
+
+                    <h1 class="header--title text-center">{{ site.title }}</h1>
+
+                {% endif %}
+
+        </div>
+    </header>
+
+    <div class="content">
+    
+        <h1 class="display-1 text-center">Coming back soon!</h1>
+
+
+    </div>
+
+
+  </body>
+
+</html>

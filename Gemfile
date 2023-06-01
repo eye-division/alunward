@@ -1,7 +1,7 @@
 # A sample Gemfile
 source "https://rubygems.org"
 
-gem "jekyll", "~>4.2.2"
+gem "jekyll", "~>4.3.2"
 
 group :jekyll_plugins do
   gem "jekyll-sitemap"
@@ -11,7 +11,7 @@ group :jekyll_plugins do
   gem 'jekyll-tagging-related_posts'
   gem 'jekyll-tagging'
   # Oct 2018 - replace jekyll sass gem with sassc
-  gem 'sassc'
+  # gem 'sassc', '~> 2.4'
   gem "jekyll-cloudinary"
 
 end
