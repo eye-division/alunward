@@ -1,13 +1,11 @@
-- title: "Home"
-  href: "/"
-
-- title: "Projects"
-  href: "/gallery/"
+- title: Home
+  href: /
+- title: Projects
+  href: /gallery/
   subcategories:
-    - subtitle: "Shadow Me"
-      subhref: "/shadow-me/"
-    - subtitle: "Goldschmidt's Miscellany"
-      subhref: "/golschmidt"
-
-- title: "About"
-  href: "/about/"
+    - subtitle: Shadow Me
+      subhref: /shadow-me/
+    - subtitle: Goldschmidt's Miscellany
+      subhref: /goldschmidt
+- title: About
+  href: /about/
