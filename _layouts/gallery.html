@@ -57,7 +57,9 @@ layout: default
                 {% endif %}
 
                 {% if page.display_thumb_title %}
-                    <figcaption class="p-2 fs-5 text-center gallery--caption link-secondary">{{ thisimage.image_title }}</figcaption>
+                    <figcaption class="p-2 text-center"><div class="fs-5 gallery--caption link-secondary">{{ thisimage.image_title }}</div>
+                    <div class="fs-6 link-secondary">{% if thisimage.image_description %} {{ thisimage.image_description }}{% endif %}</div>
+                  </figcaption>
                   {% endif %}
 
               </a>
