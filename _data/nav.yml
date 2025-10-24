@@ -3,9 +3,27 @@
 - title: Projects
   href: /gallery/
   subcategories:
-    - subtitle: Shadow Me
-      subhref: /shadow-me/
-    - subtitle: Goldschmidt's Miscellany
-      subhref: /goldschmidt
-- title: About
-  href: /about/
+    - subtitle: "Shadow Me"
+      subhref: "/shadow-me/"
+    - subtitle: "Goldschmidt's Miscellany"
+      subhref: "/goldschmidt/"
+    - subtitle: "RUN"
+      subhref: "/run/"
+    - subtitle: "Sea Hear"
+      subhref: "/seahear/"
+    - subtitle: "Transporter Mix"
+      subhref: "/transporter-mix/"
+    - subtitle: "Megasporangiate"
+      subhref: "/megasporangiate/"
+    - subtitle: "Kamarupa"
+      subhref: "/kamarupa/"
+    - subtitle: "Suborbital"
+      subhref: "/suborbital/"
+    - subtitle: "Park Meter"
+      subhref: "/park-meter/"
+    - subtitle: "Abstraction"
+      subhref: "/abstracts/"
+
+
+- title: "About"
+  href: "/about/"

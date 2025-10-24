@@ -11,7 +11,7 @@ layout: default
   {% endif %}
 
   <article>
-    
+
     {% if page.main_image_path and page.display_image %}
       <figure class="gallery--feature">
       {% assign alt_text = page.title %}
@@ -57,7 +57,7 @@ layout: default
                 {% endif %}
 
                 {% if page.display_thumb_title %}
-                    <figcaption class="gallery--caption">{{ thisimage.image_title }}</figcaption>
+                    <figcaption class="p-2 fs-5 text-center gallery--caption link-secondary">{{ thisimage.image_title }}</figcaption>
                   {% endif %}
 
               </a>

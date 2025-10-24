@@ -57,19 +57,16 @@ images:
     image_description: "discovered May 5, 1861. Asteroid no. 70"
   - image_path: '/assets/images/goldschmidt-dream.jpg'
     image_title: "Goldschmidt's Dream"
-    image_description: 
+    image_description:
   - image_path: '/assets/images/46f25e08ef57d.jpg'
     image_title: "Goldschmidt"
-    image_description: 
-  - image_path: '/assets/images/46f25db0a1016.jpg'
-    image_title: "Goldschmidt's Miscellany"
-    image_description: 
+    image_description:
   - image_path: '/assets/images/laurelandhardy.jpg'
     image_title: "Laurel (2865) and Hardy (2866)"
-    image_description: 
+    image_description:
   - image_path: '/assets/images/46f25e2a5813e.jpg'
     image_title: "Picasso (4221), Corot (6672), Matisse (8240)"
-    image_description: 
+    image_description:
 archive: false
 _options:
   image_path:
