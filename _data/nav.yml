@@ -5,6 +5,8 @@
   subcategories:
     - subtitle: "Shadow Me"
       subhref: "/shadow-me/"
+    - subtitle: "Shadow Drawings"
+      subhref: "/drawings/"
     - subtitle: "Goldschmidt's Miscellany"
       subhref: "/goldschmidt/"
     - subtitle: "RUN"

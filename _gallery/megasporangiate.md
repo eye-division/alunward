@@ -5,7 +5,7 @@ permalink: /megasporangiate/
 frontpage: true
 frontpagetitle: "Megasporangiate"
 homepage_description_markdown: >-
-  Audio installation of pine cones with headphone buds. 
+  Audio installation of pine cones with headphone buds.
 gallery_date: 2009-05-01 00:00:00
 display_image: true
 main_image_path: "/assets/images/megasporangiate-strobili-cone.jpg"
@@ -70,4 +70,6 @@ While at the arboretum I produced an additional work, <em><a href="/park-meter/"
 
 Art in the Arboretum, held in the summer of 2009, was an international project organised by Art in Situ at The University of Oxford Harcourt Arboretum, Nuneham Courtenay, working with eleven other international artists.
 
+<!--
 <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/81005937&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+-->
