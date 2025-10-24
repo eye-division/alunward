@@ -103,10 +103,10 @@ _comments:
 ---
 A set of paintings inspired by the asteroid discoveries of nineteenth century painter and astronomer <a href="https://en.wikipedia.org/wiki/Hermann_Goldschmidt">Hermann Goldschmidt</a> (1802-66). Goldschmidt discovered the twenty-first minor planet, which he named Lutetia in honour of his city of residence, Paris. By the time of his death he had discovered a further thirteen asteroids.
 
-Evidence about Goldschmidt is sparse. There are references to him in contemporary letters and journals, and his own entries to the Astronomy News and Astonomical Journal, but otherwise he is a figure in the background of life in mid nineteenth century Paris. Prosper Merimée wrote of him:
+Evidence about Goldschmidt is sparse. There are references to him in contemporary letters and journals, and his own entries to the Astronomy News and Astonomical Journal, but otherwise he is a figure loitering in the background of mid nineteenth century Paris, installed in the attic of the Cafe Procope with his telescope.
 
 > "Le Ministre d'Etat promet de commander un tableau à M. Goldschmidt en votre considération et en celle de M. de Humboldt, mais il paraît entre nous qu'il s'entend mieux aux Etoiles qu'aux toiles."
 
 *Prosper Merimée, Letter to Madame de Circourt, Weds 10 March 1858*
 
-The initial painting series developed into a multimedia work available as a screensaver, <em>Fly me to the Moon</em>, and then into an interactive kiosk installation, <em><a href="/suborbital/">The Sub-orbital Harmonic Resonator</a></em>
+The initial painting series developed into a multimedia work available as a screensaver, <em>Fly me to the Moon</em>, and then into an interactive kiosk installation, <em><a href="/suborbital/">The Sub-orbital Harmonic Resonator</a> shown, amongst other places, at a night club, and in a gaming version, in a bookshop in Oxford during VAIN live art.</em>
