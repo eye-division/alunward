@@ -15,3 +15,4 @@ group :jekyll_plugins do
   gem "jekyll-cloudinary"
 
 end
+gem "webrick", "~> 1.9"
