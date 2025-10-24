@@ -16,6 +16,9 @@ images:
   - image_path: "/assets/images/IMG_3656.jpg"
     image_title: "Beach speaker"
     image_description_markdown: ""
+  - image_path: "/assets/images/IMG_3626.jpg"
+    image_title: "Beach speaker, Shetland"
+    image_description_markdown: ""
   - image_path: "/assets/images/IMG_20170526_112900.jpg"
     image_title: "Beach speaker, Shetland"
     image_description_markdown: ""
@@ -69,3 +72,4 @@ _comments:
 
 <strong>Sea Hear</strong> was first shown as part of **Seeing Sound from Inside Out** at Fringe Arts Bath in 2015. Visitors to the exhibition were invited to record their memories and experiences of the sea to add to the audio collection.
 
+<!-- TO DO : Re-add Audio - used to be on Soundcloud -->
