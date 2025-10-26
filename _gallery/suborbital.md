@@ -60,7 +60,7 @@ _comments:
   homepage_description_markdown: Text used on homepage if shown
 ---
 <p class="lead">
-<a href="/goldschmidt">Goldschmidt's Miscellany</a> developed into he <strong>The Suborbital Harmonic Resonator</strong> kiosk is a totally self-contained aluminium and wood structure housing three monitors and a PC. No user intervention is required once the SHAR  is installed. It can power itself down every night automatically and it's possible to install it either with speakers, or headphones as appropriate. There is also an interactive game version of Fly Me which uses a modular addition to the kiosk to enable users to interact.</p>
+<a href="/goldschmidt">Goldschmidt's Miscellany</a> developed into the <strong>The Suborbital Harmonic Resonator</strong> kiosk is a totally self-contained aluminium and wood structure housing three monitors and a PC. No user intervention is required once the SHAR  is installed. It can power itself down every night automatically and it's possible to install it either with speakers, or headphones as appropriate. There is also an interactive game version of Fly Me which uses a modular addition to the kiosk to enable users to interact.</p>
 
 <h3>Fly Me to the Moon</h3>
 
