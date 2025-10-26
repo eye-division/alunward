@@ -34,6 +34,7 @@ images:
   - image_path: "/assets/images/46f2c6843970e.jpg"
     image_title: "RUN - video still"
     image_description_markdown: ""
+player: run
 audio:
   - title: 'Ia'
     file: 'SectionIa.mp3'
@@ -89,3 +90,5 @@ I started to run regularly in 2004. 'Run' represents my first attempt to unite r
 
 <!--
 <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/46372148&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe> -->
+
+{% include player.html %}

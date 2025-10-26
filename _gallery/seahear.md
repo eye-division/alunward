@@ -37,6 +37,7 @@ images:
   - image_path: "/assets/images/559c044a77012.jpg"
     image_title: "Installation at Fringe Arts Bath"
     image_description_markdown: ""
+player: seahear
 audio:
   - title: 'Alun'
     file: '003-Alun.mp3'
