@@ -27,7 +27,7 @@
                 {% for sublink in link.subcategories %}
 
                   <li class="pure-menu-item">
-                      <a href="{{ sublink.subhref | prepend: site.baseurl }}" class="pure-menu-link">{{ sublink.subtitle }}</a>
+                      <a href="{{ sublink.subhref | prepend: site.baseurl }}" class="pure-menu-link text-lowercase">{{ sublink.subtitle }}</a>
                   </li>
                   {% endfor %}
               </ul>

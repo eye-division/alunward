@@ -34,6 +34,24 @@ images:
   - image_path: "/assets/images/46f2c6843970e.jpg"
     image_title: "RUN - video still"
     image_description_markdown: ""
+audio:
+  - title: 'Ia'
+    file: 'SectionIa.mp3'
+  - title: 'Ib'
+    file: 'SectionIb.mp3'
+  - title: 'Ic'
+    file: 'SectionIc.mp3'
+  - title: 'IIa'
+    file: 'SectionIIa.mp3'
+  - title: 'IIb'
+    file: 'SectionIIb.mp3'
+  - title: 'IIc'
+    file: 'SectionIIc.mp3'
+  - title: 'IId'
+    file: 'SectionIId.mp3'
+  - title: 'IIe'
+    file: 'SectionIIe.mp3'
+
 archive: false
 _options:
   image_path:

@@ -24,7 +24,7 @@ var Player = function(playlist) {
   this.index = 0;
 
   // Display the title of the first track.
-  track.innerHTML = '1. ' + playlist[0].title;
+  track.innerHTML = playlist[0].title;
 
   // Setup the playlist display.
   playlist.forEach(function(song) {
@@ -54,10 +54,10 @@ Player.prototype = {
     if (data.howl) {
       sound = data.howl;
     } else {
-      //'/assets/audio/' + data.file + '.webm', 
+      //'/assets/audio/' + data.file + '.webm',
       sound = data.howl = new Howl({
         // src: ['/assets/audio/' + data.file + '.mp3'],
-        src: ['https://eyedivision.fra1.digitaloceanspaces.com/seahear/' + data.file + '.mp3'],
+        src: ['../assets/audio/' + data.file + '.mp3'],
         html5: true, // Force to HTML5 so that the audio can stream in (best for large files).
         onplay: function() {
           // Display the duration.
@@ -66,11 +66,9 @@ Player.prototype = {
           // Start upating the progress of the track.
           requestAnimationFrame(self.step.bind(self));
 
-
           pauseBtn.style.display = 'block';
         },
         onload: function() {
-
           loading.style.display = 'none';
         },
         onend: function() {
@@ -94,7 +92,7 @@ Player.prototype = {
     sound.play();
 
     // Update the track display.
-    track.innerHTML = (index + 1) + '. ' + data.title;
+    track.innerHTML = data.title;
 
     // Show the pause button.
     if (sound.state() === 'loaded') {
@@ -263,21 +261,42 @@ Player.prototype = {
 
 // Setup our new audio player class and pass it the playlist.
 var player = new Player([
-  {
-    title: 'Lorraine',
-    file: '012_lorraine',
-    howl: null
-  },
-  {
-    title: 'Jane',
-    file: '010-TaylorsMistake',
-    howl: null
-  },
-  {
-    title: 'Michele',
-    file: '007-German-north-sea',
-    howl: null
-  }
+    { title: 'Duvel Guido Boat', file: 'duvel_guido_boat', howl: null },
+    { title: 'David', file: 'david', howl: null },
+    { title: 'Elizabeth', file: 'elizabeth', howl: null },
+    { title: 'Frank', file: 'frank_01', howl: null },
+    { title: 'Leslie', file: 'leslie', howl: null },
+    { title: 'Mary', file: 'mary_aidan', howl: null },
+    { title: 'Robin', file: 'robin', howl: null },
+    { title: 'Alma', file: 'alma', howl: null },
+    { title: 'Rose', file: 'rose', howl: null },
+    { title: 'Sheila', file: 'sheila', howl: null },
+    { title: 'Sheila\'s friend', file: 'sheila_friend', howl: null },
+    { title: 'Tresta beach', file: 'Tresta-beach', howl: null },
+    { title: 'Robert', file: '004-Robert', howl: null },
+    { title: 'Alex\'s Sea Memories', file: '005-Alexs-sea-memories', howl: null },
+    { title: 'Richard\'s Sea Story', file: '006-Richards-sea-story', howl: null },
+    { title: 'Michele', file: '007-German-north-sea', howl: null },
+    { title: 'Milford On Sea', file: '008-Milford-on-Sea', howl: null },
+    { title: 'Constantine Bay', file: '009-Constantine-Bay', howl: null },
+    { title: 'Taylors Mistake', file: '010-TaylorsMistake', howl: null },
+    { title: 'Marion', file: '010_marion', howl: null },
+    { title: 'Mum', file: '010_mum', howl: null },
+    { title: 'Woolacombe Bay', file: '011-WoolacombeBay', howl: null },
+    { title: 'Iona', file: 'iona', howl: null },
+    { title: 'Anthony', file: 'anthony', howl: null },
+    { title: 'Jim', file: '011_jim', howl: null },
+    { title: 'Lorraine', file: '012_lorraine', howl: null },
+    { title: 'Lucy', file: '012_lucy', howl: null },
+    { title: 'Harriet', file: '013-harriet', howl: null },
+    { title: 'Paul', file: '015-paul', howl: null },
+    { title: 'Emma', file: 'emma', howl: null },
+    { title: 'Maria', file: 'maria', howl: null },
+    { title: 'Miguel', file: 'miguel', howl: null },
+    { title: 'Natasha', file: 'natasha', howl: null },
+    { title: 'Portia', file: 'portia', howl: null },
+    { title: 'Tony', file: 'tony', howl: null }
+
 ]);
 
 // Bind our player controls.

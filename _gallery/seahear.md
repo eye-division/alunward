@@ -37,6 +37,56 @@ images:
   - image_path: "/assets/images/559c044a77012.jpg"
     image_title: "Installation at Fringe Arts Bath"
     image_description_markdown: ""
+audio:
+  - title: 'Alun'
+    file: '003-Alun.mp3'
+  - title: 'Robert'
+    file: '004-Robert.mp3'
+  - title: 'Alexs Sea Memories'
+    file: '005-Alexs-sea-memories.mp3'
+  - title: 'Richards Sea Story'
+    file: '006-Richards-sea-story.mp3'
+  - title: 'Michele'
+    file: '007-German-north-sea.mp3'
+  - title: 'Milford On Sea'
+    file: '008-Milford-on-Sea.mp3'
+  - title: 'Constantine Bay'
+    file: '009-Constantine-Bay.mp3'
+  - title: 'Taylors Mistake'
+    file: '010-TaylorsMistake.mp3'
+  - title: 'Marion'
+    file: '010_marion.mp3'
+  - title: 'Mum'
+    file: '010_mum.mp3'
+  - title: 'Woolacombe Bay'
+    file: '011-WoolacombeBay.mp3'
+  - title: 'Jim'
+    file: '011_jim.mp3'
+  - title: 'Lorraine'
+    file: '012_lorraine.mp3'
+  - title: 'Lucy'
+    file: '012_lucy.mp3'
+  - title: 'Harriet'
+    file: '013-harriet.mp3'
+  - title: 'Paul'
+    file: '015-paul.mp3'
+  - title: 'Alex'
+    file: 'alex.mp3'
+  - title: 'Duvel Guido Boat'
+    file: 'duvel_guido_boat.mp3'
+  - title: 'Emma'
+    file: 'emma.mp3'
+  - title: 'Maria'
+    file: 'maria.mp3'
+  - title: 'Miguel'
+    file: 'miguel.mp3'
+  - title: 'Natasha'
+    file: 'natasha.mp3'
+  - title: 'Portia'
+    file: 'portia.mp3'
+  - title: 'Tony'
+    file: 'tony.mp3'
+
 archive: false
 _options:
   image_path:
@@ -72,4 +122,4 @@ _comments:
 
 <strong>Sea Hear</strong> was first shown as part of **Seeing Sound from Inside Out** at Fringe Arts Bath in 2015. Visitors to the exhibition were invited to record their memories and experiences of the sea to add to the audio collection.
 
-<!-- TO DO : Re-add Audio - used to be on Soundcloud -->
+{% include player.html %}
