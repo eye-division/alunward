@@ -15,60 +15,60 @@ display_thumb_title: true
 images:
   - image_path: /assets/images/goldschmidt-lutetia-1.jpg
     image_title: "Lutetia"
-    image_description: "discovered November 15, 1852. Asteroid no. 21
+    image_description: "discovered November 15, 1852. Asteroid 21
     Paris by its Latin name"
   - image_path: /assets/images/goldschmidt-pomona.jpg
     image_title: "Pomona"
-    image_description: "discovered October 26, 1854. Asteroid no. 32
-    A nymph at Rome, goddess of the fruit"
+    image_description: "discovered October 26, 1854. Asteroid 32
+    Goddess of fertility, Roman nymph"
   - image_path: /assets/images/goldschmidt-atalanta.jpg
     image_title: "Atalanta"
-    image_description: "discovered October 5, 1855. Asteroid no. 36
-    Hippomenes won her hand in the race with golden apples"
+    image_description: "discovered October 5, 1855. Asteroid 36
+    Raced Hippomenes and tricked with golden apples"
   - image_path: '/assets/images/goldschmidt-harmonia.jpg'
     image_title: "Harmonia"
-    image_description: "discovered March 31, 1856. Asteroid no. 40
-    Daughter of Ares and Aphrodite, wife of Cadmus - named at the close of the Crimean War"
+    image_description: "discovered March 31, 1856. Asteroid 40
+    Named at the close of the Crimean War after the daughter of Ares and Aphrodite and wife of Cadmus"
   - image_path: '/assets/images/goldschmidt-daphne.jpg'
     image_title: "Daphne"
-    image_description: "discovered May 22, 1856. Asteroid no. 41
-    Daughter of Terra, changed into a laurel tree to free her from Apollos' pursuit"
+    image_description: "discovered May 22, 1856. Asteroid 41
+    Daughter of Terra, changed into a laurel tree to free her from Apollo's pursuit"
   - image_path: '/assets/images/goldschmidt-nysa.jpg'
     image_title: "Nysa"
-    image_description: "discovered May 27, 1857. Asteroid no. 44
-    District where nymphs brought up Bacchus"
+    image_description: "discovered May 27, 1857. Asteroid 44
+    District where Bacchus was brought up by nymphs"
   - image_path: '/assets/images/goldschmidt-eugenia-1.jpg'
     image_title: "Eugenia"
-    image_description: "discovered June 27, 1857. Asteroid no. 45
-    Named in honor of the French empress Eugenia de Montijo de Guzm´an"
+    image_description: "discovered June 27, 1857. Asteroid 45
+    Named in honor of the French Empress Eugenia de Montijo de Guzm´an"
   - image_path: '/assets/images/goldschmidt-doris.jpg'
     image_title: "Doris"
-    image_description: "discovered September 19, 1857. Asteroid no. 48
-    A sea nymph - one of the Oceanides"
+    image_description: "discovered September 19, 1857. Asteroid 48
+    An Oceanides sea nymph"
   - image_path: '/assets/images/goldschmidt-pales.jpg'
     image_title: "Pales"
-    image_description: "discovered September 19 1857. Asteroid no. 49
+    image_description: "discovered September 19 1857. Asteroid 49
     Roman goddess of sheepfolds and pastures"
   - image_path: '/assets/images/goldschmidt-europa.jpg'
     image_title: "Europa"
-    image_description: "discovered February 4 1858. Asteroid no. 52
-    Daughter of Agenor, carried off by Zeus who was disguised as a bull"
+    image_description: "discovered February 4 1858. Asteroid 52
+    Daughter of Agenor, carried off by Zeus disguised as a bull"
   - image_path: '/assets/images/goldschmidt-alexandra-01.jpg'
     image_title: "Alexandra"
-    image_description: "discovered September 10 1858. Asteroid no. 54
-    Named in honor of Baron Alexander von Humboldt"
+    image_description: "discovered September 10 1858. Asteroid 54
+    Named in honor of Alexander von Humboldt"
   - image_path: '/assets/images/goldschmidt-melete.jpg'
     image_title: "Melete"
-    image_description: "discovered September 9, 1859. Asteroid no. 56
+    image_description: "discovered September 9, 1859. Asteroid 56
     Named for one of the three ancient Muses"
   - image_path: '/assets/images/goldschmidt-danae.jpg'
     image_title: "Danae"
-    image_description: "discovered September 9, 1860. Asteroid no. 61
+    image_description: "discovered September 9, 1860. Asteroid 61
     Daughter of Acrisius, father of Perseus by Zeus"
   - image_path: '/assets/images/goldschmidt-panopea.jpg'
     image_title: "Panopaea"
-    image_description: "discovered May 5, 1861. Asteroid no. 70
-    A sea nymph, one of the Nereids"
+    image_description: "discovered May 5, 1861. Asteroid 70
+    A Nereid sea nymph"
 
 archive: false
 _options:
