@@ -1,2 +1,90 @@
 paths:
-    uploads: "assets"
+    uploads: assets
+    uploads_use_relative_path: false
+collections_config:
+    pages:
+        path: ''
+        icon: wysiwyg
+        disable_url: false
+        include_developer_files: false
+        disable_add: false
+        disable_add_folder: false
+        disable_file_actions: false
+    data:
+        path: _data
+        icon: data_usage
+        disable_url: true
+        include_developer_files: false
+        disable_add: true
+        disable_add_folder: true
+        disable_file_actions: true
+    posts:
+        path: _posts
+        icon: event_available
+        disable_url: false
+        include_developer_files: false
+        _inputs:
+            categories:
+                type: multiselect
+                options:
+                    allow_create: true
+                    allow_empty: true
+                    values: collections.posts[*].categories
+                    required: false
+                cascade: true
+            tags:
+                type: multiselect
+                options:
+                    allow_create: true
+                    allow_empty: true
+                    values: collections.posts[*].tags
+                    required: false
+                cascade: true
+        add_options:
+            -
+                name: Add Post
+            -
+                name: Add Draft
+                collection: drafts
+        create:
+            path: >-
+                [relative_base_path]/{date|year}-{date|month}-{date|day}-{title|slugify}.[ext]
+        disable_add: false
+        disable_add_folder: false
+        disable_file_actions: false
+    drafts:
+        path: _drafts
+        icon: event
+        disable_url: false
+        include_developer_files: false
+        _inputs:
+            categories:
+                type: multiselect
+                options:
+                    allow_create: true
+                    allow_empty: true
+                    values: collections.posts[*].categories
+                    required: false
+                cascade: true
+            tags:
+                type: multiselect
+                options:
+                    allow_create: true
+                    allow_empty: true
+                    values: collections.posts[*].tags
+                    required: false
+                cascade: true
+        create:
+            publish_to: posts
+        disable_add: false
+        disable_add_folder: false
+        disable_file_actions: false
+    gallery:
+        path: _gallery
+        icon: allergy
+        disable_url: false
+        include_developer_files: false
+        disable_add: false
+        disable_add_folder: false
+        disable_file_actions: false
+timezone: Etc/UTC
