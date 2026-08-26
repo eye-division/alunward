@@ -19,7 +19,10 @@ layout: default
   {% endif %}
 
 
+ <editable-text data-prop="@content" data-type="block">
+	<!-- render page content (e.g. markdown) -->
   {{ content }}
+</editable-text>
 
 
   {% if page.images[0].image_path %}
